@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activ_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E0F1"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:id="@+id/textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvExpression"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="end"
+            android:maxLines="1"
+            android:textColor="#070707"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="end"
+            android:maxLines="1"
+            android:textColor="#070707"
+            android:textSize="15sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textLayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tvSeven"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="7"
+                android:background="@drawable/gradient_grey"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvEighnt"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="8"
+                android:background="@drawable/gradient_grey"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvNine"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="9"
+                android:background="@drawable/gradient_grey"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvDivision"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="/"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvClear"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="AC"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvCos"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="cos"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvsqrt"
+                android:layout_width="125dp"
+                android:layout_height="60dp"
+                android:text="√"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tvFour"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="4"
+                android:background="@drawable/gradient_grey"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvFive"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="5"
+                android:background="@drawable/gradient_grey"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvSix"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="6"
+                android:background="@drawable/gradient_grey"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/tvMul"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="*"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvNegat"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="+/-"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvSin"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="sin"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvsquare"
+                android:layout_width="125dp"
+                android:layout_height="60dp"
+                android:text="Х²"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tvOne"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="1"
+                android:background="@drawable/gradient_grey"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvTwo"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="2"
+                android:background="@drawable/gradient_grey"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvThree"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="3"
+                android:background="@drawable/gradient_grey"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvMinus"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="-"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvPower"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="^"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvTan"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="tan"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvtripl"
+                android:layout_width="125dp"
+                android:layout_height="60dp"
+                android:text="x³"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tvZero"
+                android:layout_width="140dp"
+                android:layout_height="60dp"
+                android:text="0"
+                android:background="@drawable/gradient_grey"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvDot"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="."
+                android:background="@drawable/gradient_grey"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvPlus"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvEqual"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:text="="
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvCot"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="cot"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tvfact"
+                android:layout_width="125dp"
+                android:layout_height="60dp"
+                android:text="x!"
+                android:background="@drawable/gradient_yellow"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
